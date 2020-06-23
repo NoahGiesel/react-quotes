@@ -18,8 +18,8 @@ function App() {
  
   return (
     <ul>
-      {data.hits.map(item => (
-        <li key={item.data.quotes._id}> {item.data.quotes.quoteAuthor} </li>
+      {data.hits.map(item  => (
+        <li key={item.data.quotes._id}> {item.data.quotes.quoteAuthor } </li>
       ))}
     </ul>
   );
